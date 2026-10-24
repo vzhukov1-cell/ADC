@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32 Debug (Nucleo-G431RB)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "stlink",
+            "cwd": "${workspaceFolder}",
+            "executable": "${command:cmake.launchTargetPath}",
+            "device": "STM32G431RB",
+            "v1": false,
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "serverpath": "K:/ST/STM32CubeCLT/STLink-gdb-server/bin/ST-LINK_gdbserver.exe",
+            "armToolchainPath": "K:/ST/STM32CubeCLT/GNU-tools-for-STM32/bin",
+            "stm32cubeprogrammer": "K:/ST/STM32CubeCLT/STM32CubeProgrammer/bin"
+        }
+    ]
+}
