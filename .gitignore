@@ -1,0 +1,10 @@
+# Временные файлы сборки CMake
+/build/
+/.CMake/
+/CMakeUserPresets.json
+
+# Локальные настройки VS Code
+/.vscode/
+
+# Временные файлы CubeMX
+/mx.scratch
